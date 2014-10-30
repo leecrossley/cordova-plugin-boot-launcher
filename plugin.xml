@@ -23,6 +23,6 @@
                 </intent-filter>
             </receiver>
         </config-file>
-        <source-file src="src/android/BootLauncher.java" target-dir="src/uk/co/ilee/bootlauncher" />
+        <source-file src="src/android/BootLauncher.java" target-dir="src/uk/co/payzone/bootlauncher" />
     </platform>
 </plugin>
