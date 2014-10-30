@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="bootlauncher" version="0.0.1">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="uk.co.payzone.bootlauncher" version="0.0.1">
     <name>Boot Launcher</name>
     <author>Lee Crossley (http://ilee.co.uk/)</author>
     <description>Cordova Plugin to automatically start the Cordova app when the device is booted.</description>
@@ -10,14 +10,14 @@
     <platform name="android">
         <config-file target="config.xml" parent="/*">
             <feature name="BootLauncher">
-                <param name="android-package" value="uk.co.ilee.bootlauncher.BootLauncher" />
+                <param name="android-package" value="uk.co.payzone.bootlauncher.BootLauncher" />
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <receiver android:name="uk.co.ilee.bootlauncher.BootLauncher">
+            <receiver android:name="uk.co.payzone.bootlauncher.BootLauncher">
                 <intent-filter>
                     <action android:name="android.intent.action.BOOT_COMPLETED" />
                 </intent-filter>
