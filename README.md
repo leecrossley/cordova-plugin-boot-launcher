@@ -1,5 +1,7 @@
 # Boot Launcher
 
+Launch your Apache Cordova Android app automatically when the device is booted.
+
 ## Install
 
 1. Fork this repository
