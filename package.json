@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-boot-launcher",
+  "version": "0.2.0",
+  "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
+  "description": "Cordova Plugin to automatically start the Cordova app when the device is booted.",
+  "cordova": {
+    "id": "cordova-plugin-boot-launcher",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecrossley/cordova-plugin-boot-launcher.git"
+  },
+  "keywords": [
+    "cordova",
+    "boot",
+    "launch",
+    "startup",
+    "homescreen",
+    "automatic",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leecrossley/cordova-plugin-boot-launcher/issues"
+  },
+  "homepage": "https://github.com/leecrossley/cordova-plugin-boot-launcher#readme"
+}
